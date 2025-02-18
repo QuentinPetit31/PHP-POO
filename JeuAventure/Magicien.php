@@ -27,7 +27,7 @@ class Magicien extends AbstractPersonnage {
     }
     public function afficher() {
         echo "Je suis un magicien nommé {$this->nom}. Mana : {$this->mana}<br>";
-        echo "<img src='lux.gif' alt='Attaque de Lux' style='width:200px ;'>";
+        echo "<img src='lux.gif' alt='Attaque de Lux' style='width:400px ;'>";
 
     }
 }
