@@ -7,11 +7,11 @@ class Maison{
     private ?int $nbrEtage;
 
     //Constructeur
-    public function __construct(string $nom,?int $longueur, ?int $largeur, ?int $etage){
-        $this-> $nom = $nom;
-        $this-> $longueur = $longueur;
-        $this-> $largeur = $largeur;
-        $this-> $etage = $nbrEtage;
+    public function __construct(string $nom,?int $longueur, ?int $largeur, ?int $nbrEtage){
+        $this-> nom = $nom;
+        $this-> longueur = $longueur;
+        $this-> largeur = $largeur;
+        $this-> nbrEtage = $nbrEtage;
 
     }
     //GETTER ET SETTER

@@ -1,0 +1,35 @@
+/* Importation de la police "Friz Quadrata" (utilisée par League of Legends) */
+@font-face {
+  font-family: "LoLFont";
+  src: url("https://fonts.cdnfonts.com/s/76891/Friz%20Quadrata%20Regular.woff")
+    format("woff");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  height: 100vh; /* Prend toute la hauteur de l'écran */
+  text-align: center; /* Centre le texte */
+  background: url("https://www.travistreadway.com/aurelion-sol-fan-art")
+    no-repeat center center fixed; /* Image de fond */
+  background-size: cover; /* Ajuste la taille de l'image */
+  font-family: "LoLFont", sans-serif; /* Applique la police League of Legends */
+  color: white; /* Texte en blanc pour être lisible */
+}
+
+/* Styles pour l'image de Lux en attaque */
+img {
+  margin-top: 20px;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+/* Styles des paragraphes */
+p {
+  font-size: 24px;
+  font-weight: bold;
+}
